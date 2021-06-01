@@ -64,6 +64,7 @@ def pre_processing(img):
     bbox = _extract_bbox(img, single = True)
     face = _extract_face(img,bbox,face_scale_thres=(30,30))
     img = _blobImage(face, out_size = (96, 96), scaleFactor=1/255.0, mean=(0, 0, 0))
+    
     return img
 
 

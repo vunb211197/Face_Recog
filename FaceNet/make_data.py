@@ -4,7 +4,7 @@ import cv2
 import os
 from pre_processing import pre_processing
 
-data_path= 'C:\\Users\\nguyenbavu\\Desktop\\FaceNet\\data'
+data_path= 'C:\\Users\\nguyen ba vu\\Desktop\\Face_Recog\\FaceNet\\data'
 
 def get_data():
     #khởi tạo các list để chứa labels và data
